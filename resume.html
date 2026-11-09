@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Serrano | Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #080808;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+        .resume-header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            padding: 18px 5%;
+            background: #141414;
+            border-bottom: 1px solid #272b33;
+        }
+
+        .resume-header h2 {
+            font-size: 20px;
+        }
+
+        .resume-header h2 span {
+            color: #f5c518;
+        }
+
+        .back-btn {
+            padding: 10px 18px;
+            background: #e50914;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: .3s;
+        }
+
+        .back-btn:hover {
+            background: #b20710;
+        }
+
+        .resume-container {
+            display: flex;
+            justify-content: center;
+            padding: 35px 15px;
+        }
+
+        .resume-image {
+            display: block;
+            width: 100%;
+            max-width: 850px;
+            height: auto;
+            object-fit: contain;
+            background: white;
+            box-shadow: 0 10px 40px rgba(0,0,0,.5);
+        }
+
+        @media (max-width: 600px) {
+            .resume-header h2 {
+                font-size: 16px;
+            }
+
+            .back-btn {
+                padding: 9px 12px;
+                font-size: 12px;
+            }
+
+            .resume-container {
+                padding: 20px 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="resume-header">
+        <h2>STEVEN<span>.</span> RESUME</h2>
+
+        <a href="index.html" class="back-btn">
+            ← Back to Portfolio
+        </a>
+    </header>
+
+    <main class="resume-container">
+        <img
+            src="images/resume.png"
+            alt="Steven Reniel Serrano Resume"
+            class="resume-image">
+    </main>
+
+</body>
+</html>

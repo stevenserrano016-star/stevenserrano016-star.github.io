@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Steven Reniel N. Serrano, a BS Computer Science student from Bacoor, Cavite.">
+    <meta name="author" content="Steven Reniel N. Serrano">
+    <meta name="theme-color" content="#080808">
+    <title>Steven Serrano | Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="logo" aria-label="Steven Serrano - Home">STEVEN<span>.</span></a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects &amp; Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="nav-btn">Hire Me</a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main">
+
+<section id="home" class="hero">
+    <div class="hero-content">
+
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>
+            Hi, I'm <span>Steven Reniel Serrano</span>
+        </h1>
+
+        <h2>Computer Science Student</h2>
+
+        <p class="tagline">Code. Build. Innovate.</p>
+
+        <p class="hero-text">
+            I am a Bachelor of Science in Computer Science student
+            passionate about technology, web development, and practical
+            technical skills. I enjoy learning, solving problems, and
+            building projects that help me grow as a future IT professional.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">
+                View My Projects
+            </a>
+
+            <a href="#contact" class="btn secondary">
+                Contact Me
+            </a>
+
+           <a href="resume.html"
+   class="btn resume-btn"
+   target="_blank"
+   rel="noopener">
+    View Resume
+</a>
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+        <div class="image-frame">
+            <img src="images/profile.jpg"
+                 alt="Profile photo of Steven Reniel N. Serrano"
+                 width="400"
+                 height="400"
+                 id="profile-img">
+
+            <div class="img-fallback" aria-hidden="true">SS</div>
+        </div>
+    </div>
+</section>
+
+        <section id="about" class="section">
+            <div class="section-title reveal">
+                <p>Get to know me</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-grid single-column">
+                <div class="about-content reveal">
+                    <p>
+                        I am Steven Reniel N. Serrano, a Bachelor of Science in
+                        Computer Science student (BSCS 3-2) at Cavite State University,
+                        Bacoor City Campus.
+                    </p>
+                    <p>
+                        Aside from my studies, I have practical knowledge and skills in
+                        electrical and electronics repair and installation, as well as
+                        welding. This hands-on background helps me understand how
+                        technology works from the hardware up to the software.
+                    </p>
+                    <p>
+                        I continuously strive to improve my technical abilities, gain
+                        knowledge, and develop new skills.
+                    </p>
+
+                    <ul class="quick-facts">
+                        <li><strong>Program:</strong> BS Computer Science</li>
+                        <li><strong>Section:</strong> BSCS 3-2</li>
+                        <li><strong>Location:</strong> Bacoor City, Cavite</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section alt">
+            <div class="section-title reveal">
+                <p>What I can do</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-container">
+                <article class="skill-card reveal">
+                    <div class="skill-icon" aria-hidden="true">⚡</div>
+                    <h3>Electrical &amp; Electronics</h3>
+                    <p>Knowledge and practical skills in electrical and electronics work, including wiring and circuit troubleshooting.</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon" aria-hidden="true">🔧</div>
+                    <h3>Repair &amp; Installation</h3>
+                    <p>Hands-on experience in repairing and installing electrical and electronic equipment.</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon" aria-hidden="true">🔥</div>
+                    <h3>Welding</h3>
+                    <p>Practical welding skills for fabrication and repair work.</p>
+                </article>
+
+                <article class="skill-card reveal">
+                    <div class="skill-icon" aria-hidden="true">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Currently learning to build responsive websites using HTML, CSS, and JavaScript.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-title reveal">
+                <p>My work</p>
+                <h2>Projects &amp; <span>Learning</span></h2>
+            </div>
+
+            <h3 class="sub-heading reveal">Projects</h3>
+            <div class="cards">
+                <article class="card reveal">
+                    <span class="tag">Web Development</span>
+                    <h4>Personal Portfolio Website</h4>
+                    <p>
+                        A responsive personal website built for DCIT 26 (Application
+                        Development and Emerging Technologies). It presents my background,
+                        skills, and contact details using HTML, CSS Flexbox and Grid,
+                        and JavaScript.
+                    </p>
+                    <ul class="tech-list">
+                        <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+                    </ul>
+                </article>
+
+                <article class="card card-soon reveal">
+                    <span class="tag">Coming soon</span>
+                    <h4>More Projects</h4>
+                    <p>New projects will be added as I continue learning and gaining experience.</p>
+                </article>
+            </div>
+
+            <h3 class="sub-heading reveal">Currently Learning</h3>
+
+<div class="cards">
+    <article class="card reveal">
+        <span class="tag">Learning</span>
+        <h4>Web Development</h4>
+        <p>Continuously improving my skills in HTML, CSS, and JavaScript.</p>
+    </article>
+
+    <article class="card reveal">
+        <span class="tag">Learning</span>
+        <h4>Computer Science</h4>
+        <p>Building my knowledge of programming, problem-solving, and computer science fundamentals.</p>
+    </article>
+
+    <article class="card reveal">
+        <span class="tag">Learning</span>
+        <h4>Technical Skills</h4>
+        <p>Developing practical skills in electrical and electronics repair, installation, and welding.</p>
+    </article>
+</div>
+        </section>
+
+        <section id="contact" class="section alt">
+            <div class="section-title reveal">
+                <p>Let's connect</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-wrap">
+                <div class="contact-info reveal">
+                    <h3>Get in touch</h3>
+                    <p>Have a question or want to work together? Send me a message.</p>
+
+                    <ul>
+                        <li>
+                            <span class="ci-label">Email</span>
+                            <a href="mailto:SerranoSteven026@gmail.com">SerranoSteven026@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="ci-label">Phone</span>
+                            <a href="tel:+639615007353">0961 500 7353</a>
+                        </li>
+                        <li>
+                            <span class="ci-label">Location</span>
+                            <span>Bacoor City, Cavite</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form" id="contact-form" novalidate>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Steven Reniel N. Serrano. All Rights Reserved.</p>
+        <p class="footer-sub">BSCS 3-2 &middot; Cavite State University - Bacoor City Campus</p>
+    </footer>
+
+    <button class="to-top" id="to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
